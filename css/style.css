@@ -12,6 +12,48 @@ body{
     background-position: center;
     filter: grayscale(50%);
 }
+.slide-text{
+    padding: 150px 50px 50px 50px;
+    color: white;
+}
+
+.slide-text h1{
+    font-size: 3.5em;
+    line-height: 70px;
+}
+
+.slide-text>p {
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.slide-text div {
+    width: 300px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.slide-text .slide-contact{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    padding:10px;
+    background-color: #d50000;
+    border: 1px solid black;
+    box-shadow: 0 10px 10px 0 #000000;
+}
+
+.carousel-indicators{
+    position: relative;
+    top: 650px;
+}
+.carousel-indicators li {
+    border-color: #CC9933;
+}
+
+.carousel-indicators li.active {
+    background-color: #CC9933;
+}
 
 .bg-gray{
     background-color: lightgray;
@@ -54,7 +96,7 @@ body{
 
 }
 .test-border{
-    border: 1px solid black;
+    border: 1px solid white;
 }
 
 .gly-icon{
