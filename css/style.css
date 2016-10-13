@@ -12,6 +12,35 @@ body{
     background-position: center;
     filter: grayscale(50%);
 }
+/*nav bar*/
+.navbar{
+    margin-bottom: 0;
+    //background-color: transparent;
+    z-index: 9999;
+    border: 0;
+    font-size: 14px !important;
+    line-height: 1.42857143 !important;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #CC9933 !important;
+    font-weight: bold;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #CC9933;
+    color: #CC9933 !important;
+}
+
+.de_logo {
+    width: 67.76px;
+    height: 48.36px;
+    position: relative;
+    top: -14px;
+}
+
+
 .slide-text{
     padding: 150px 50px 50px 50px;
     color: white;
@@ -113,10 +142,14 @@ body{
 .contact-section{
     padding: 50px;
 }
-
+.contact-section h2{
+    padding-top: 40px;
+}
 .contact-img{
     height: 250px;
     width: 250px;
+    padding-bottom: 10px;
+    background-color: darkgrey;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
     -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
     filter: grayscale(100%);
