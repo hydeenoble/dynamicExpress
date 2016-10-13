@@ -13,6 +13,9 @@ body{
     filter: grayscale(50%);
 }
 /*nav bar*/
+nav .container-fluid{
+    padding-left: 50px;
+}
 .navbar{
     margin-bottom: 0;
     //background-color: transparent;
@@ -88,7 +91,7 @@ body{
     background-color: lightgray;
 }
 .wrapper-div{
-    padding-top: 20px;
+    padding-top: 50px;
     padding-bottom: 30px;
     width: 80%;
 }

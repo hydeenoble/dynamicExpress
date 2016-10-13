@@ -9,35 +9,35 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
 </head>
-<body id="top" data-spy="scroll" data-target=".navbar" data-offset="50">
-<div class="bg-div">
-    
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navBar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="#" class="navbar-brand">
-                    <img class="de_logo" src="images/DYNAMIC%20EXPRESS.png" alt="Dynamic Express Logo">
-                </a>
-            </div>
-            
-            <div class="collapse navbar-collapse" id="navBar">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#home">Home</a></li>
-                    <li><a href="#get-something">Get Something</a></li>
-                    <li><a href="#errand-caterogies">Errand Caterogies</a></li>
-                    <li><a href="#about">About us</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
-                </ul>
-            </div>
+<body id="home" data-spy="scroll" data-target=".navbar" data-offset="50">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navBar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand">
+                <img class="de_logo" src="images/DYNAMIC%20EXPRESS.png" alt="Dynamic Express Logo">
+            </a>
         </div>
-    </nav>
 
+        <div class="collapse navbar-collapse" id="navBar">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#home">Home</a></li>
+                <li><a href="#get-something">Get Something</a></li>
+                <li><a href="#errand-caterogies">Errand Caterogies</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="bg-div">
     <div id="slide-div" class="carousel slide" data-ride="carousel">
         <!--indicators-->
         <ol class="carousel-indicators">
@@ -67,7 +67,7 @@
     </div>
 </div>
 
-<div class="container text-center wrapper-div">
+<div id="get-something" class="container text-center wrapper-div">
 
     <h2  class="text-center">Get Anything in Just 4 Steps</h2>
 
@@ -110,12 +110,11 @@
 
 </div>
 
-<div class="container-fluid text-center bg-gray">
+<div id="errand-caterogies" class="container-fluid text-center bg-gray" style="padding-top:50px;">
     <h2  class="text-center">Errand Categories</h2>
 </div>
 
-<div class="container">
-    <br>
+<div id="about" class="container" style="padding-top:50px;">
     <h2 class="text-center">Meet Dynamic Express</h2>
     <p  class="text-center">jjfsfjs sjvbsjs sjkbfsf sfjkbsfsf sjfsfs fksjfbsf skfjsfs fksjfskf sfkjsfjsf skfs fksjfs kf skfskjf sfkj s
     nskbfsfbsjfsff s fjsf skfs,f skf sfksf skf sfksf sfks fksf sfks fksbfsk fjsfkj fbwkf bfkbfms fmfbj mfssjfbsf
@@ -151,7 +150,7 @@
     <br><br>
 </div>
 
-<div class="container-fluid bg-gray ">
+<div id="contact" class="container-fluid bg-gray" style="padding-top:50px;">
     <div class="container contact-section">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-md-push-6">
@@ -192,7 +191,7 @@
     </div>
 </div>
 <footer class="container-fluid text-center">
-    <a href="#top" title="To Top">
+    <a href="#home" title="To Top">
         <span class="glyphicon glyphicon-chevron-up"></span>
     </a>
     <p>Copyright &copy; 2016 | All Right Reserved | Dynamic Express. </p>
